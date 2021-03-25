@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "YPImagePicker",
-            path: "YPImagePicker",
+            path: "Source",
             exclude: [
                 "Info.plist",
             ],
