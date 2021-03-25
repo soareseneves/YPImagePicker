@@ -5,7 +5,7 @@ let package = Package(
     name: "YPImagePicker",
     defaultLocalization: "en",
     platforms: [
-        .iOS("8.0")
+        .iOS("9.0")
     ],
     products: [
         .library(name: "YPImagePicker", targets: ["YPImagePicker"])
