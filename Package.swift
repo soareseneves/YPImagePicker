@@ -17,6 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "YPImagePicker",
+            dependencies: ["Stevia", "PryntTrimmerView"],
             path: "Source",
             exclude: [
                 "Info.plist",
